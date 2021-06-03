@@ -1,0 +1,6 @@
+dias = float(input('Por quantos dias você alugou o veículo? '))
+km = float(input('Quantos km você rodou com o veículo? '))
+paluguel = float(input('Quanto está o aluguel deste veículo? '))
+pkm = float(input('Quanto está o preço da gasolina na sua cidade ? '))
+autonomia = float(input('Qual autonomia do seu carro? '))
+print(f'Você alugou o carro por {dias} dias\nVocê andou {km}km com o carro\nVocê vai gastar R${dias*paluguel} em aluguel\nVocê vai gastar R${pkm*autonomia} em gasolina')
